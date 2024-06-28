@@ -1,0 +1,25 @@
+.options{
+    height: 60px;
+    border-top: 2px solid #E6E6E6 ;
+    border-bottom: 2px solid #E6E6E6 ;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    h3{
+        margin-left: 5%;
+        font-weight: 400;
+        cursor: pointer;
+        color: #888888;
+        padding: 15px 0px;
+        border-bottom: 3px solid transparent;
+        text-shadow: 2px 2px 4px #62626247;
+
+    }:hover{
+        color: #DC4A2D;
+        border-bottom: 3px solid #DC4A2D;
+        transition: all 0.2s ease-in-out;
+        text-shadow: none;
+      }
+}
+

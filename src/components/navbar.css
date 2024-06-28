@@ -1,0 +1,84 @@
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 35px;
+
+    p{
+      position: absolute;
+      left: 30%;
+      cursor: pointer;
+      border: 2px solid #FCB4A5;
+      padding: 10px 15px;
+      border-radius: 25px;
+      background-color: #DC4A2D;
+      color: white;
+
+      .toogle-icons{
+        vertical-align: middle;
+        margin-right: 5px;
+    }
+  }
+} 
+.Logo{
+  background-color: #E7E7E7;
+  color: #DC4A2D;
+  padding: 0.5px 10px;
+  font-weight: 800;
+    
+    
+}
+.Toogle{
+    display: flex;
+    border: 1px solid #D1D1D1;
+    align-items: center;
+    height: 7vh;
+    border-radius: 35px;
+    margin-left: 9rem;
+    width: 32vw;
+    justify-content: space-around;
+    box-shadow: inset 0px 2px 5px 0 rgba(0, 0, 0, 0.341);
+  
+    
+  
+    h3{
+      /* margin-right: 35px; */
+      font-size: 15px;
+     
+      color: #B0B0B0;
+      cursor: pointer;
+      font-weight: 300;
+      padding: 10px 15px;
+      border-radius: 25px;
+      border: 2px solid transparent;
+  
+      img{
+        position: absolute;
+        left: 39%;
+      }
+  
+      .toogle-icons{
+          vertical-align: middle;
+          margin-right: 5px;
+      }
+  
+    }:hover{
+      background-color: #DC4A2D;
+      transition: all 0.2s ease-in-out;
+      border: 2px solid #FCB4A5;
+      color: #ffffff;
+    }
+  
+}
+.notify{
+    width: 8vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+  
+    .bell .dot{
+        position: absolute;
+        right: 155px;
+    }
+}
